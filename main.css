@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* header start */
+
+header {
+    height: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header nav .logo a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color .25s ease;
+}
+
+nav ul li a:hover {
+    color: #0ba2c0;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+
+nav .menu .menu-button {
+    text-decoration: none;
+    color: #0ba2c0;
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 56px;
+     transition: all .25s ease;
+}
+
+nav .menu .menu-button:hover {
+    color: white;
+    background-color: #0ba2c0;;
+}
+
+/* header end */
+
+
+/* section start */
+.content {
+    color: white;
+    height: calc(100vh - 100px);
+    padding-top: 150px;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.content p {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 32px;
+}
+
+.content .links {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    column-gap: 16px;
+}
+
+.content .links a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 56px;
+    width: 380px;
+    text-align: center;
+    font-size: 18px;
+    transition: all .20s ease-in;
+}
+
+.content .links a:hover {
+    background-color: #0ba2c0;
+    color: white;
+}
+/* section end */
